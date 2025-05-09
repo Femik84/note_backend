@@ -33,6 +33,7 @@ ALLOWED_HOSTS = ["note-backend-g6f3.onrender.com", "127.0.0.1", "localhost"]
 
 
 REST_FRAMEWORK = {
+    
     "DEFAULT_AUTHENTICATION_CLASSES": (
         "rest_framework_simplejwt.authentication.JWTAuthentication",
     ),
