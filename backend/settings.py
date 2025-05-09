@@ -29,7 +29,7 @@ SECRET_KEY = 'django-insecure-3*i!%++carfwy$w^)qmct!pd*qn*i%#(oa2s%=5ifkc(qnrxb#
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["*"]
+ALLOWED_HOSTS = ["note-backend-g6f3.onrender.com", "127.0.0.1", "localhost"]
 
 
 REST_FRAMEWORK = {
